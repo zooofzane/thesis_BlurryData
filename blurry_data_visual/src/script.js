@@ -13,6 +13,7 @@ import Stats from 'three/examples/jsm/libs/stats.module.js';
 const data = require('./csvjson.json');
 console.log(data);
 console.log(data[0].date_end);
+data[0].date_end.split(' ')
 
 const canvas = document.querySelector('canvas.webgl')
 const scene = new THREE.Scene()
