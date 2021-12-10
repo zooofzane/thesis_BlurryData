@@ -19,3 +19,50 @@ body
     outline: none;
 }
 
+p{
+    position: absolute;
+    left: 30px;
+}
+
+
+#conflict_name{
+
+  top: 10px;
+}
+#country{
+    top: 30px;
+}
+#geom_wkt{
+    top: 50px;
+}
+
+#best{
+    top: 70px;
+}
+#side_a{
+    top: 90px;
+}
+#side_b{
+    top: 110px;
+}
+#deaths_a{
+    top: 130px;
+}
+#deaths_b{
+    top: 150px;
+}
+#deaths_civilians{
+    top: 170px;
+}
+#deaths_unknown{
+    top: 190px;
+}
+#source_article{
+    top: 210px;
+} 
+#date_end{
+    top: 230px;
+} 
+
+
+
