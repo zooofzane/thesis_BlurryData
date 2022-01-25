@@ -1,3 +1,4 @@
+precision mediump float;
 // uniform float uTime;
 // uniform float uSize;
 
@@ -5,14 +6,14 @@
 // attribute float aScale;
 
 // varying vec3 vColor;
+varying vec4 vposition;
 
-void main()
-{
+void main() {
     /**
      * Position
      */
     vec4 modelPosition = modelMatrix * vec4(position, 1.0);
-                
+
     // Rotate
     // float angle = atan(modelPosition.x, modelPosition.z);
     // float distanceToCenter = length(modelPosition.xz);
@@ -28,6 +29,8 @@ void main()
     vec4 projectedPosition = projectionMatrix * viewPosition;
     gl_Position = projectedPosition;
 
+
+    vposition = gl_Position;
     /**
      * Size
      */
