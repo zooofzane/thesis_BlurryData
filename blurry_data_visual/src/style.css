@@ -17,6 +17,7 @@ body
     top: 0;
     left: 0;
     outline: none;
+    z-index: 0;
 }
 
 p{
@@ -64,5 +65,10 @@ p{
     top: 230px;
 } 
 
+.details{
+    color:#fff
+}
 
-
+.mdc-button{
+    z-index: 10;
+}

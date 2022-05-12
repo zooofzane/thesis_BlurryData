@@ -1,12 +1,12 @@
 precision mediump float;
-// uniform float uTime;
-// uniform float uSize;
+uniform float uTime;
+uniform float uSize;
 
 // attribute vec3 aRandomness;
 // attribute float aScale;
 
 // varying vec3 vColor;
-varying vec4 vposition;
+// varying vec4 vposition;
 
 void main() {
     /**
@@ -30,7 +30,7 @@ void main() {
     gl_Position = projectedPosition;
 
 
-    vposition = gl_Position;
+    // vposition = gl_Position;
     /**
      * Size
      */

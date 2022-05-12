@@ -3,21 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>blurry data visual prototype</title>
+    <title>Look Back Through Fog</title>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link  rel =" stylesheet " href =" bundle.css " > 
+
+
+
 </head>
 <body>
         <canvas class="webgl"></canvas>
-        <p id="conflict_name"></p>
-        <p id="country"></p>
-        <p id="geom_wkt"></p>
-        <p id="best"></p>
-        <p id="side_a"></p>
-        <p id="side_b"></p>
-        <p id="deaths_a"></p>
-        <p id="deaths_b"></p>
-        <p id="deaths_civilians"></p>
-        <p id="deaths_unknown"></p>
-        <p id="source_article"></p>
-        <p id="date_end"></p>
+       
+   
+     
+
+        <button class="mdc-button foo-button">
+            <div class="mdc-button__ripple"></div>
+            <span class="mdc-button__label">Button</span>
+          </button>
+  
+
+
+        <!-- <p class="details" id="source_article"></p> -->
+        <!-- <p class="details" id="date_end"></p> -->
+        <!-- <button style = "position:relative; left:80px; top:2px; color:yellow;" type="button" id="filterA"></button> -->
+        <div id="facts">
+            <p class="details" id="country"></p>
+        </div>
+        <div class="details">
+            <p class="details" id="conflict_name"></p>
+            <p class="details" id="deaths_civilians"></p>
+            <p class="details" id="deaths_unknown"></p>
+            <p class="details" id="best"></p>
+            <p class="details" id="geom_wkt"></p>
+            <div id="sidea">
+                <p class="details" id="side_a"></p>
+                <p class="details" id="deaths_a"></p>
+            </div>
+            <div id = "sideb">
+                <p class="details" id="side_b"></p>
+                  
+        <p class="details" id="deaths_b"></p>
+            </div>
+        </div>
+      
 </body>
 </html>
